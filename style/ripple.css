@@ -1,0 +1,13 @@
+/** NOTE: When this is updated, refresh ripple.js' minified version. */
+
+/**
+ * contains a ripple. Will normally grow to fixed size (200px/200px), not
+ * related to the holder itself.
+ */
+.rippleJS .ripple.held {
+  opacity: 0.4;
+}
+
+.rippleJS .ripple.done {
+  opacity: 0.0;
+}
